@@ -10,12 +10,15 @@ def map_to_negativize(source_array)
 end
 
 def map_to_no_change(source_array)
-  new_array = []
+  #new_array = []
+  new_array = source_array
+=begin
   i = 0
   while i < source_array.length do
     new_array.push(source_array[i])
     i += 1
   end
+=end
   return new_array
 end
 
